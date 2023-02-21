@@ -1,0 +1,117 @@
+작업 공간 시작 
+clone : 저장소를 복제 해 새 디렉터리로 가져옵니다.
+init : 빈 깃 저장소를 만들거나 기존 저장소를 다시 초기화
+
+변경 사항에 대한 작업
+add : 파일 내용을 인덱스에 추가
+mv : 파일, 디렉터리, 실볼릭, 링크를 옮기거나 이름을 바꿈
+restore : restore working tree files
+rm : 파일을 작업 폴더에서 제거하고 인덱스에서도 제거함
+
+커밋 내역과 상태보기
+bisect : 이진 탐색으로 버그를 만드어낸 커밋을 찾는다.
+diff : 커밋과 커밋 사이, 커밋과 작업내용 사이등의 바뀐점을 본다.
+gerp : 패턴과 일치하는 줄을 표시
+log : 커밋 기록을 표시
+show : 여러가지 종류의 오브젝트를 표시
+status : 작업 폴더 상태를 표시
+
+커밋 내역을 키우고, 표시하고, 조작하기
+branch : 브랜치를 만듬, 삭제, 목록출력
+commit : 바뀐 사항을 저장소에 기록
+merge : 여러개의 개발 내역을 하나로 합침
+reset : 현재 head,를 지정한 상태로 재설정
+
+pwd : 현재 위치를 나타냄
+ls(dir) : 목록보기
+          -a : 숨긴 파일이나 디렉토리도 함께 표시
+          -l : 파일이나 디렉터리의 상세정보 표시
+          -r : 파일 정렬을 반대로
+          -t : 작성 시간순으로 표시
+
+cd : 페이지 이동 / 절대 경로 제일 처음 ./ 현재 디렉토리 ../ 이전 디렉토리
+     ~ 현재 접속중인 디렉터리를 나타내며 cd~ 접속한 디렉터리로 돌아가게 된다.
+mkdir : mkdir 폴더명 디렉터리 만들기
+rm -r : 폴더명 디렉터리와 그 하위 디렉터리, 파일 모두 삭제
+clear : 터미널 정리
+exit : 터미널 종료
+
+vim
+i 입력모드 esc 명령모드
+:w 또는 write - 편집하던 문서를 저장함
+:q 또는 quit - 편집하던 문서를 종료함
+:wq - 편집하던 문서를 저장하고 종료함
+:q! - 저장하지 않고 편지빅 종료 (.swap인 임시파일이 생김)
+:wq파일명 - 편집하던 문서를 지정한 파일 이름으로 저장
+
+concat
+
+.gitignore
+
+-형상관리
+-협업
+
+git add .
+git commit -m
+
+git commit -am(add + commit + 메세지 등록)
+단, 새로 추가되는 파일이 없을 때만 가능
+
+1. efg 에 멤버를 한 명 추가한 후 커밋
+ "add efg to members"
+
+2. fgh.json 추가 내용은 앞에것과 비슷하게 만듬
+  "add group fgh"
+
+3. efg 삭제, bcd master를 james로 교체
+   ghi.json 추가 내용은 앞에 것과 비슷하게 만듬
+   "replace efg, bcd mod, ghi add"
+
+1. 폼에 쓴 내용을 변수에 담아서 페이지로 넘김
+-변수를 읽음
+input type : button 버튼
+input type : reset 폼내용 지우기
+input type : submit 폼 전송
+
+
+input type : sheckbox
+input type : radio
+input type : txetarea
+select option /option / select
+
+required
+
+
+//숫자 타입
+let intnum = 10;
+let foatnum = 10.10;
+
+//문자열 타입
+let str = "문자열 문자 타입";
+let str2 = "문자열 타입";
+
+//불리언 타입
+
+
+//undefined 타입
+
+
+//null 타입
+
+
+//객체 리터럴 방식으로 str 객체 생성
+let str = {
+    name = '철수',
+    age = 30,
+    gender = "남자" 
+    }
+    console.log(typeof str);
+    console.log(str);
+    console.sir(str);
+str.gender = "여자";
+console.log(typeof str);
+console.log(str .gender);
+
+str.major = "백수";
+console.log(str.major);
+

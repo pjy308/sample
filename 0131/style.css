@@ -1,0 +1,21 @@
+.chapter{
+    color:rgb(255, 99, 71);
+    background-color:#d4fc7d;
+}
+.chapter a{
+    color:white;
+}
+#chapter1-1 h2{
+    background-color: rgb(32,109,224);
+}
+#chapter1-1 p{
+    background-color:hsl(0,90,77);
+    color:white;
+}
+#chapter1-2{
+    color:blue;
+    background-color:pink;
+}
+#chapter1-3 p{
+    color:red;
+}

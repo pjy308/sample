@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       //삼항 조건 연산자
+       // 조건식?참일때 결과:거짓일때 결과;
+       // 오차범위 +-5; 
+/*        let name = prompt("당신의 이름은 무엇인가요?","");
+       let height = prompt("당신의 신장은?", "0");
+       let weight = prompt("당신의 몸무게는?", "0"); //유저 몸무게
+       let normalWeight = (height - 100) * 0.9; //평균 체중
+       let result = (weight >= normalWeight - 5 && weight <= normalWeight + 5)?"좋은 몸무게 입니다.":"안좋아요. 몸무게를 관리 하세요.";
+
+       document.write(name+ "님, " + result); */
+
+/*        const price1 = 4000;
+       const price2 = 9000;
+       const price3 = 3000;
+       const total = price1 + price2 + price3;
+
+       let result = total > 15000 ? total-15000 + "원 초과" 
+                    : "돈 관리 잘했어요.";
+       document.write(result);  */   
+       
+       const avgSale = (1200 + 1300 + 1000) / 3;  //평균판매량
+       let fourth = prompt("4분기 판매량을 입력 하시오.", "0");
+       const msg1 = "판매량이 평균 이상입니다.";
+       const msg2 = "판매량이 평균 미달입니다.";
+       let rs = (fourth >= avgSale)?msg1:msg2;
+       document.write(rs);
+
+    </script>
+</body>
+</html>

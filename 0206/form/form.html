@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+    <link rel="stylesheet" href="../css/form_style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form name="form" action="form2.html" method="post">
+        <ul>
+            <li>
+                <span class="check">이름</span>
+                <input type="text" name="username" 
+                       id="usrename" placeholder="이름"  required>
+            </li>
+            <li>
+                <span class="check">성별</span>
+                <label><input type="radio" name="gender" id="female" value="female" checked> 여성</label>
+                <label><input type="radio" name="gender" id="male" value="male"> 남성</label>
+            </li>
+            <li>
+                <span class="check">아이디</span>
+                <input type="text" name="userid" 
+                id="usrid" placeholder="아이디" required>
+            </li>
+            <li>
+                <span>전화번호</span>
+                <select name="tel1">
+                    <option value="02" selected>02</option>
+                    <option value="031">031</option>
+                    <option value="032">032</option>
+                    <option value="033">033</option>
+                </select>
+                - 
+                <input type="text" name="tel2" class="tel">
+                - 
+                <input type="text" name="tel3" class="tel">
+            </li>
+            <li>
+                <span class="check">휴대폰번호</span>
+                <select name="hp1">
+                    <option value="02" selected>02</option>
+                    <option value="031">031</option>
+                    <option value="032">032</option>
+                    <option value="033">033</option>
+                </select>
+                - 
+                <input type="text" name="hp2" class="tel">
+                - 
+                <input type="text" name="hp3" class="tel">
+            </li>
+            <li>
+                <span class="check">이메일</span>
+                <input type="text" name="email1" class="email">
+                @ 
+                <input type="text" name="email2" class="email">
+                <select name="email3" id="e">
+                    <option value="">직접입력</option>
+                    <option value="naver.com">네이버</option>
+                    <option value="daum.net">다음</option>
+                    <option value="google.com">구글</option>
+                </select>
+            </li>
+        </ul>
+        <div class="btn-box">
+            <button type="reset" class="reset myButton2">취 소</button>
+            <button type="submit" class="submit myButton">전 송</button>
+        </div>
+        </form>
+    </div>
+<input type="file">
+</body>
+</html>

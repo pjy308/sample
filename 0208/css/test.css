@@ -1,0 +1,61 @@
+*{ box-sizing:border-box;}
+body{
+    margin:0;
+}
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+a:hover{
+    font-weight:bold;
+    background:yellow;
+}
+.banner{
+    height:400px;
+    background-color:pink;
+    text-align:center;
+    font-size:100px;
+    color:#ccc;
+    margin-top:0;
+    overflow-y:scroll;
+}
+.banner:hover{
+    background-color:red;
+}
+.header{
+    height:80px;
+    border-bottom:1px solid #ccc;
+    text-align:center;
+    padding-top:30px;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+    background-color:rgba(255,255,255,0.8);
+}
+.header::before{
+    content:"안녕안녕";
+}
+.header::after{
+    content:"";
+    display:block;
+    width:200px;
+    height:10px;
+    background:red;
+    margin:auto;
+    display:none;
+}
+.header:hover::after{
+   display:block;
+}
+section{
+    margin-bottom:80px;
+    padding-bottom:30px;
+    border-bottom:1px dashed #ccc;
+}
+
+section p:nth-child(odd){
+    background-color:yellowgreen;
+}
+q:lang(no){
+    quotes: "%%" "%%";
+}

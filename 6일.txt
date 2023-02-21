@@ -1,0 +1,81 @@
+두 가지 목적
+- 타임 캡슐(시간 관리 도구)
+- 차원관리도구
+
+#주석처리는 #입니다
+
+#파일.확장자 (같은 이름의 모든 파일)
+file.js
+
+#최상위 폴더의 파일.확장자
+/file.js
+
+#js확장자를 가진 모든 파일
+*.js
+
+#위의 제외할 모든 확장자에 속하지만 무시하면 안될 경우
+!file.js
+
+#logs 란 이름의 폴더(폴더안의 내용 모두), 파일
+logs
+
+#logs 란 이름의 폴더만(폴더안의 내용 모두)
+logs/
+
+#logs
+ - a - ag.js
+ - b - ag.js
+ - c - ag.js
+ - d - ag.js
+
+logs/**.ag.js
+
+입력 i
+입력종료 esc
+종료 : q (저장없이 종료)
+      : q! (저장 없이 강제 종료 - 입력한 것이 없을 떄
+wq 저장하고 종료
+위로스크롤 k
+아래로 스크롤j
+
+
+
+vertpcal-align : top bottom middle
+
+txet-decoration
+txet-transform
+
+들여쓰기 text-indent
+글자 사이의 간격 letter-spacing
+단어 사이의 간격 word-spacing
+행간 ilne-height
+
+font-family : sans-serif serif
+font-style : nomar italic oblique
+font-weight
+font-variant
+
+font-size
+white-space
+- normal 기본값으로 박스 끝에 닿으면 줄 바꿈이 일어난다.
+- nowrap 줄바꿈이 금지되면 박스를 벗어나도 한 줄로 표현된다.
+- pre html 소스에 쓰여진 그대로(줄바꿈,띄어쓰기)표현된다.
+- pre wrap 소스에 쓰여진 그대로 표현되지만 박스를 벗어나면 줄바꿈이 일어난다.
+- pre-line pre-wrap과 같지만 띄어쓰기는 한 칸만 인식한다.
+
+border 
+- 두께, 선의 종류, 색상
+border-width
+border-style
+border-color
+
+margin: top right bottom left
+          top right/bottom left
+          top/bottom right/left
+          top/bottom/right/left
+
+padding(박스안쪽여백)
+
+
+float 
+    

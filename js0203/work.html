@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //오늘의 온도를 입력받아 화씨로 바꾸시오.
+        //섭씨를 화씨로 구하는 공식은 인터넷에서 찾아 보시오.
+      let cel = prompt("오늘의 온도를 입력하세요.", "0");
+      let c = celsius(cel);
+      document.write("오늘의 온도는 화씨 " + c +"도 입니다.");
+      
+      function celsius(num){
+          let cels = (num * 1.8) + 32;
+          return cels;
+      }
+    </script>
+</body>
+</html>

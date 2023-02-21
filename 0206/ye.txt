@@ -1,0 +1,16 @@
+// 숫자타입
+let intNum = 10;
+
+//문자열 타입
+
+//불리언 타입
+
+//undefined 타입 
+
+//null 타입 
+
+let str = "만든 후 각각의 변수의 타입을 확인하라.";
+
+let arrayMember = ["철수", "영희", "순이"];
+
+console.log(arrayMember[2])

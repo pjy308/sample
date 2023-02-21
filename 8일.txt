@@ -1,0 +1,6 @@
+display
+block - form, div, h1~h6, header maim section
+inline - span, a ,img, input
+
+position: 기본값 박스는 위치값을 잦기 않으며 주변 상황에 맞게 위치한다.
+position:absikte; 주변에 다른 것과 상관없이 자기의

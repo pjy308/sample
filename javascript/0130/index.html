@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // 문자열을 출력할 때는 따옴표로 싸서 출력
+        // 자바스크립트의 산술 연산자 
+        // + - * / %  
+        //A+B , A-B, A*B, A/B, A%B  
+        // let num1 = 15;
+        // let num2 = 2;
+        // let result;
+        // result = num1 + num2;
+        // document.write(result, "<br>");
+
+        // result = num1 - num2;
+        // document.write(result + "<br>");
+
+        // result = num1 * num2;
+        // document.write(result, "<br>");
+
+        // result = num1 / num2;
+        // document.write(result, "<br>");
+
+        // result = num1 % num2;
+        // document.write(result, "<br>");
+
+        // let str1 = "학교종이";
+        // let str2 = "땡땡땡";
+        // result = str1 + " " + str2;
+        // document.write(result);
+  
+        // let num1 = 10;
+        // let num2 = 3;
+        // num1 += num2;
+        // document.write(num1, "<br>");  //13
+        // num1 -= num2;
+        // document.write(num1, "<br>"); //10
+        // num1 *= num2;  //30
+        // document.write(num1, "<br>"); //30
+        // num1 %= num2;
+        // document.write(num1, "<br>"); //0
+    // let str;
+    // str = "<h1>남으로 창을 내겠소</h1>";
+    // str += "<p>남(南)으로<br>창(窓)을 내겠소.</p>";
+    // str += "<p>밭이 한참갈이
+    // document.write(str);
+
+    //  let num1 = 10;
+    //  let num2 = 20;
+    //  let result;
+
+    //  num1--;
+    //  document.write(num1, "<br>"); //9
+
+    //  num1++; 
+    //  document.write(num1, "<br>");  //10
+
+    //  result = num2++;
+    //  document.write(result, "<br>");//20
+    //  document.write(num2, "<br>");21
+
+    //  result = ++num2;
+    //  document.write(result, "<br>");//22
+    //  document.write(num2, "<br>");//22
+
+    /*
+    변수 a = 10; b =20  c = 10  f = "20" 있다. 
+    아래의 결과를 말하라.
+    
+    1. a > b;  // false
+    2. a < b   // true
+    3. a <= b  // true
+    4. b == f  // true
+    5. a != b  // true
+    6. b === f  //false
+    */
+   let a = 10;
+   let b = 20;
+   let m = 30;
+   let n = 40;
+
+   let rs;
+   rs = a>b||b>=m||m>n;  //f || f || f  => f 
+   rs = a>b || b >=m || m <= n;  // f || f || t => t
+
+   a<=b&&b>=m&&m<=n
+   a<=b&&b<=m&&m<=n
+   !(a>b)
+
+    </script>
+</body>
+</html>

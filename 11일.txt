@@ -1,0 +1,29 @@
+
+1. 브랜치 확인 : git branch
+2. 브랜치 이름변경 : git branch -m 원래이름 변경할 이름
+3. 브랜치 생성 : git branch 이름
+4. 브랜치 이동 : git switch 브랜치 이름
+5. 브랜치 이동과 동시에 생성 : git switch -c 브랜치 이름
+6. 브랜치 삭제 : git branch -d 브랜치 이름
+7. 브랜치 강제삭제 : git branch -D 브랜치이름
+지워질 브랜치에만 있는 커밋, 즉 아직 다른 브랜치로 가져오지 않는 내용이 있을 경우 강제 삭제 해야함
+
+- 반응형 웹 : 
+- 적응형 웹 :
+
+history 객체 속성 종류
+history.back() - 이전 방문 사이트로 이동
+history.forward - 다음 방문 사이트로 이동
+history.go(숫자) - -2를 입력하면 2단계 이전 사이트로 방문
+history.length - 방문 기록에 저장된 목록의 수를 반환
+
+기본 플랫폼: mozilla/5.0
+운영체제 정보 : (windows nt 10.0; win64; x64
+사용중인 브라우저 엔진: applewebkit/537.36(khtml
+
+브라우저 객체 모델로 운영체제와 모니터의 크기를 구하여 화면에 출력시키세요
+윈도우 1200px 800px
+애플 1980px 1200px
+아이폰
+안드로이드
+

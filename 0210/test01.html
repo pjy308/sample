@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="test02.html">성인사이트</a>
+    <div id="map" style="width:100%;height:350px;"></div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1b8d0fa5adc2ccd23c0c5f1dcad00cfd"></script>
+    <br><br>
+    <button type="button" onclick="getLocation()">위치정보 확인</button>
+    <p id="geo"></p>
+    <script>
+        let x = document.getElementById("geo");
+        function getLocation(){
+            if(navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }else{
+                x.innerHTML = "브라우저에서 위치정보 허용을 클릭해 주세요.";
+            }
+        }
+
+        function showPosition(position){
+            const lat = "위도 : " + position.coords.latitude;
+            const lon = "경도 : " + position.coords.longitude;
+            var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+                mapOption = { 
+                  center: new kakao.maps.LatLng(lat, lon), // 지도의 중심좌표
+                  level: 3 // 지도의 확대 레벨
+                };
+            var map = new kakao.maps.Map(mapContainer, mapOption); 
+
+            // 마커가 표시될 위치입니다 
+            var markerPosition  = new kakao.maps.LatLng(lat, lon); 
+
+           // 마커를 생성합니다
+           var marker = new kakao.maps.Marker({
+               position: markerPosition
+           });
+
+           marker.setMap(map);
+        }
+        
+    </script>
+</body>
+</html>

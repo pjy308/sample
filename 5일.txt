@@ -1,0 +1,51 @@
+폰트 종류
+
+1. serif : 문자의 가장 자리가 꺽어져 있는 글씨,격식 있고 우아한 글씨 표현.
+2. sans-serif : 고딕체와 같이 라인에 꺽임이 없는 깔끔한 글씨. 모던하고 미니멀한 디자인에 쓰임
+3. monospace : 예전의 타자체. 각 글자의 간격이 일정한 글씨체
+4. cursive : 필기체
+5. fantasy : 화려한 글
+
+font-family
+font-style : nomal, oblique, italic
+font-weight: nomal, bold, bolder || 100 200 300 400 (nomal), 
+font-size : 16px;
+font-color x => color
+font-variant : 
+
+text-align : left, center, right, justify
+
+text-decoration-line : underline, overline, line-through
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+
+text-transform : uppercase, lowerscae, capitalize
+
+line-height : 한문단의 높이
+letter-spacing : 
+word-spacing
+text-indent
+
+질문 당신이 즐겨 사용하는 검색 사이트는?
+
+구글 - 구글로 이동
+네이버- 네이버로 이동
+다음 - 다음으로 이동
+네이트-네이트로 이동
+보기 중에는 없는 사이트 입니다. 출력시키는 swich문을 만드시오
+
+30보다 작은 수 중에 2의 배수이면서 6의 배수인 값을 출력시켜라.
+ 1부터 10까지의 수중 홀수는 파랑색, 짝수는 빨강색으로 출력하라.
+1부터 100까지 수 중 5의 배수는 빨강, 7의배수는 초록색.
+5의 배수이면서 7의 배수인 경우 굵은글씨에 파랑색으로 출력
+
+1. 1부터 100까지 수를 더하여 결과를 console창에 출력하라
+2. 마스크 공장에 마스크를 담을 수 있는 봉투가 3개입,5개입 두 종류가 있다.
+최대한 적은 봉투를 사용하여 마스크를 담고자 한다.
+예를 들어 18개의 마스크가 있다면 3개입봉투6개를 사용할수 있지만
+5개입 3개와 3개입 하나로 담으면 더 적은 봉투를 사용하는 것이다.
+
+n개의 마스크를 담기 위해서는 필요한 최소한의 팩수를 구하는 공식을 만들라
+단, 정확하게 담지 못할 경우 -1을 출력시켜라
+

@@ -1,0 +1,22 @@
+내용이 넘치는 속성 제어
+
+overflow : hidden, auto , scroll
+overflow-x
+overflow-y
+
+background-image: url (이미지경로);
+백그라운드 이미지 반복 명령
+background-repeat: repeat, no-repeat, repeat-x, repeat-y
+background-attachment : scroll (기본값), fixed, local
+
+자바스크립트 삼항 연산
+(조건) ? true : false;
+
+위와 같은 3항 연산 식에서 참일 때 실행 문이 여러개 있거나 길다면,
+
+
+방문자 이름을 받아서
+이름이 있으면 000님 홈페이지 방문을 환영합니다.
+
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="test02.html">성인사이트</a>
+    <br><br>
+    <button type="button" onclick="getLocation()">위치정보 확인</button>
+    <p id="geo"></p>
+    <script>
+        let x = document.getElementById("geo");
+        function getLocation(){
+            if(navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }else{
+                x.innerHTML = "브라우저에서 위치정보 허용을 클릭해 주세요.";
+            }
+        }
+
+        function showPosition(position){
+            const lat = "위도 : " + position.coords.latitude;
+            const lon = "경도 : " + position.coords.longitude;
+            x.innerHTML = `당신의 위치는 ${lat}, ${lon} 입니다.`;
+        }
+    </script>
+</body>
+</html>

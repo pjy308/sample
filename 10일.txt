@@ -1,0 +1,56 @@
+reset
+ - 원하는 시점으로 돌아감
+   (이후 내역은 다 삭제)
+
+revert
+ - 원하는 시점을 가져와서 새로 커밋함
+
+onclick
+onmouseover
+onmouseout
+
+mouesenter
+mouseleave
+
+blur
+focus
+keyup
+keydown
+keypress
+open("url","새창이름","새창옵션") - url페이지를 새창에서 연다
+                                            - 새창옵션:
+                                              width=숫자, height = 숫자, left = 숫자, top = 숫자,
+                                              scrollbars = yes or no
+                                              location = yes or no (url 주소창 숨김, 노출)
+                                              status = tes or no (상태표시줄 영역 숨김, 노출)
+                                              
+alert(date),prompt(질문),confirm(질문) - 질의 응답들을 경고창으로 나타낸다
+moveto(x,y) - 지정한 새 창의 위치를 이동
+resizeto(width,height) - 지정한 새 창의 크기를 변경
+setlnterval(function(){코드}, 시간) - 지속적으로 일정한 시간 간격으로 함수를 계속 호출한다
+settimeout(function(){코드), 시간) - 단 한번 일정한 시간 간격으로 함수를 호출
+
+setlnterval(함수, 2000(2초));
+clearlnterval()
+
+
+
+location.속성
+location.메서드()
+
+
+location.href - 잠조주소를 설정하거나 url을 반환
+                   파라미터창 전체 주소 또는 해당 페이지로 이동
+location.hash - url의 해시값(#)을 반환
+예) http://demo.com/main/#main
+location.hostname - url호스트 이름을 설정하거나 반환
+//http://host.com
+location.host - url의 이름과 포트번호를 반환
+http://host.com:80
+location.protocol - url의 프로토콜을 반환
+http://host.com:80
+location.search - url의 쿼리를 반환
+key=value&
+location.reload - f5 누른것 처럼 브라우저를 새로고침
+
+

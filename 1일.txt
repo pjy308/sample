@@ -1,0 +1,24 @@
+*변수 선언시 주의 사항
+1. 변수명 첫 글자에는 $,_,영문자만 올 수 있다.
+   var 1num = 10; (x)
+   var $num = 10; (o)
+   var _num = 10; (o)
+
+2. 변수명 첫 글자 다음에는 영문자, 숫자, $, _가 포함될 수 있다.
+   var 100num = 10; (x)
+   var num100 = 10; (o)
+
+3. 변수명에는 예약어를 사용할 수 없다.
+   var, document, console (x)
+
+4. 변수명을 지을 때 가능하면 의미를 부여해서 작성하자.
+  var num; var str;
+  var num = "hello";(x)
+
+5. 대소문자를 구분한다.
+  var num = 10;
+  document.write(Num); (x)
+
+6. 복합단어로 만들 경우 낙타표기법 사용한다.
+i am tom => iAmTom;
+                 i_am_tom

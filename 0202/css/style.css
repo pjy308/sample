@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+body{
+    /* font-family:Arial, Helvetica, sans-serif;
+    color:#333333;
+    font-size:16px; 
+    1. style variant weight size/line-height font-family  
+    2. size family */
+    /* font: italic small-caps bold 13px/30px 'Noto Sans KR', sans-serif;  */
+    font: 13px 'Noto Sans KR', sans-serif;
+}
+a{
+    text-decoration:none;
+}
+.a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:400;
+    line-height: 1.2;
+    text-indent: 30px;
+    word-spacing:5px;
+    letter-spacing: -2px;
+}
+.b{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align:right;
+}
+.c{
+    font-family: 'Dongle', sans-serif;
+    font-size:25px;
+}
+.b span{
+    /* text-decoration-line:overline underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px; */
+    text-decoration: overline underline red double 1px;
+}
+.d{
+    font-variant:small-caps;
+}

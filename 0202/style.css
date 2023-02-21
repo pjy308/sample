@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 18px;
+}
+.a{
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 32px;
+    text-indent: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    /* 1. style,variant, weight, size/line-height, font-family
+    2. size, family */
+    /* font: italic small-caps bold 13px/30px 'noto sans kr', sans-serif */
+    font: 13px 'noto sans kr' , sans-serif; 
+  }
+.b{
+    font-family: 'Noto Serif KR', serif; 
+    
+}
+.c{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+.b span{
+    /* text-decoration: overline aquamarine;
+    text-decoration-color: red;
+    text-decoration-style: wavy; */
+    text-decoration: overline aquamarine red double;
+}
+.d{
+    text-transform: capitalize;
+}

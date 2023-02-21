@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #555555;
+}
+.container{
+    width: 800px;
+    margin: 80px auto;
+}
+.contauner ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.container li{
+border-top: 1px solid #a6c2e8;
+}
+.container li:last-child{
+border-bottom: 1px solid #a6c2e8;
+}
+.container span{
+    display: inline-block;    /*block inline table 레이아웃: inline-block flex grid */
+    background: #d2e0f3;
+    width: 150px;
+    height: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.container label{
+    
+    box-sizing: border-box;
+    margin-right: 20px;
+    
+}
+.ck{
+    background: url(image.png) no-repeat 20px 10px;
+    background-size: 15px 15px;
+}
+input{
+    display: inline-block;
+}
+.btn-box{
+    padding-top: 20px;
+    text-align: center;
+}
+.btn-box button{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
